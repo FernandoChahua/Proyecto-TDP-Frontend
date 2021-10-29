@@ -1,0 +1,47 @@
+name: ayuda_mujer
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cloudinary_public: 
+  crypto: 
+  cupertino_icons: 
+  dio: 
+  file_picker:
+  flutter: 
+    sdk: flutter
+  get: 4.2.5
+  http: ^0.13.3
+  flutter_chat_ui: ^1.4.1
+  uuid: ^3.0.4
+  sigv4: ^5.0.0
+  amazon_cognito_identity_dart_2: ^1.0.3
+  flutter_rating_bar: ^4.0.0
+  google_fonts: 
+  google_maps_flutter: 
+  intl: 
+  jwt_decode: 
+  loading_indicator: 
+  location: 
+  logger: 
+  shared_preferences: 
+  stream_chat_flutter:
+  url_launcher: 
+  
+
+dev_dependencies: 
+  flutter_launcher_icons: 
+  flutter_test: 
+    sdk: flutter
+  lint: ^1.0.0
+flutter_icons:
+  image_path: 'assets/images/logo.png'
+  android: true
+  ios: true
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
